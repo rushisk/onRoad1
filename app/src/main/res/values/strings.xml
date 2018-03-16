@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">onRoad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="city">Enter City</string>
+    <string name="tours">Mini Bus</string>
+    <string name="tours_type1">Bus</string>
+    <string name="dhaba_list">List of Dhabas</string>
+    <string name="error_occured">Error Occurred</string>
+    <string name="product_name">Product Name</string>
+    <string name="txt_image_slider">Image Slideshow</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="time_out">Time Out</string>
+    <string name="about_company">Buses go almost everywhere in India and are the only way to get around many mountainous areas.
+    They tend to be the cheapest way to travel. Services are fast and frequent.
+    Roads in mountainous or curvy terrain can be perilous; buses are often driven with wilful abandon, and accidents are always a risk.
+Avoid night buses unless there’s no alternative: driving conditions are more hazardous and drivers may be inebriated or overtired.
+
+All buses make snack and toilet stops (some more frequently than others), providing a break but possibly adding hours to journey times.
+Shared jeeps complement the bus service in many mountain areas.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

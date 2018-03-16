@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start"
+    android:background="@color/backgroundcolor"
+    android:id="@+id/seat_layout"
+    tools:context="com.balashanti.rushi.onroad.Seat_Select">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginStart="112dp"
+        android:layout_toEndOf="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/relativeLayout"
+        android:background="@drawable/upper"
+        android:text="Upeer" />
+</RelativeLayout>

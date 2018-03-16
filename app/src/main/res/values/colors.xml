@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#B71C1C</color>
+    <color name="backgroundcolor">#EEEEEE</color>
+    <color name="imgBtnBack">#ffffff</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="view_divider_color_2">#DADADA</color>
+
+
+</resources>
+<!--
+use this for icon colors
+<color name="colorPrimary">#FFC107</color>
+<color name="colorPrimaryDark">#FFA000</color>
+<color name="colorAccent"> #FF4081</color>
+<color name="backgroundcolor">#fcfcfc</color>
+<color name="lightgray">#ededed</color>
+<color name="deeppurple">#7c4dff</color>
+<color name="yello">#ffb300</color>
+<color name="green">#00bfa5</color>
+<color name="holo_blue_dark">#ff0099cc</color>
+<color name="view_divider_color">#BABABA</color>
+<color name="view_divider_color_2">#DADADA</color>
+
+-->
