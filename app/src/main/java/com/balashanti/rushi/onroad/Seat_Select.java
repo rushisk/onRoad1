@@ -36,43 +36,6 @@ public class Seat_Select extends AppCompatActivity {
 
         setTitle("Select seat");
 
-
-
-
-        gridView.setAdapter(new TextAdapter(this));
-
-        gridView.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                // TODO Auto-generated method stub
-
-                selectedItem = parent.getItemAtPosition(position).toString();
-
-                GridViewItems = (TextView) view;
-
-                GridViewItems.setBackgroundColor(Color.parseColor("#814f00"));
-
-                GridViewItems.setTextColor(Color.parseColor("#fdfcfa"));
-
-                BackSelectedItem = (TextView) gridView.getChildAt(backposition);
-
-                if (backposition != -1) {
-
-                    BackSelectedItem.setSelected(false);
-
-                    BackSelectedItem.setBackgroundColor(Color.parseColor("#fbdcbb"));
-
-                    BackSelectedItem.setTextColor(Color.parseColor("#040404"));
-                }
-
-                backposition = position;
-
-
-            }
-        });
-
     }
 }
 
