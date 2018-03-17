@@ -35,7 +35,7 @@ public class Seat_Select extends AppCompatActivity {
         setContentView(R.layout.activity_seat__select);
 
         setTitle("Select seat");
-       
+
 
 
 
