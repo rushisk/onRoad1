@@ -37,7 +37,9 @@
             android:name=".BusListActivity"
             android:label="Buses"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Seat_Select" />
+        <activity android:name=".Seat_Select"
+            android:label="Select Seat"
+            android:parentActivityName=".BusListActivity"/>
 
         <activity
             android:name=".RegisterActivity"

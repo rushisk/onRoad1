@@ -27,8 +27,8 @@ public class City_List extends AppCompatActivity {
 
         for(int i = 0; i<10; i++){
             ListDhaba listDhaba=new ListDhaba(
-                    "heading"+(i+1),
-                    "lorem  ipsum dsa tezxt"
+                    "Dhaba Namae"+(i+1),
+                    "Address of dhaba"
             );
             listItem.add(listDhaba);
         }

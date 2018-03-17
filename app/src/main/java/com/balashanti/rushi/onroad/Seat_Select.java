@@ -23,18 +23,11 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class Seat_Select extends AppCompatActivity {
 
-    GridView gridView;
-
-    String selectedItem;
-    TextView GridViewItems, BackSelectedItem;
-    int backposition = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seat__select);
-
-        setTitle("Select seat");
 
     }
 }
