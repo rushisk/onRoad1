@@ -1,6 +1,6 @@
 package com.balashanti.rushi.onroad;
 
-
+//main screen of tours fragment, and also code for minibus will goes here
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

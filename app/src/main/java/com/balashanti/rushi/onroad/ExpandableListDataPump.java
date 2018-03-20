@@ -2,6 +2,7 @@ package com.balashanti.rushi.onroad;
 
 /**
  * Created by Rushikesh Kotule on 01-Mar-18.
+ * data about Questions and answers of FAQ
  */
 import java.util.ArrayList;
 import java.util.HashMap;

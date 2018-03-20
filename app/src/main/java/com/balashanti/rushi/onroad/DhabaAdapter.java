@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * Created by Rushikesh Kotule on 11-Feb-18.
+ * Adpater for daba recyclerview
  */
 
 public class DhabaAdapter extends RecyclerView.Adapter<DhabaAdapter.ViewHolder> {

@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 /**
  * Created by Rushikesh Kotule on 27-Feb-18.
+ * Its a dedicated adapter for offers images of dabas in main screen of Daba
  */
 
 public class DhabapageAdapter extends PagerAdapter {

@@ -1,6 +1,6 @@
 package com.balashanti.rushi.onroad;
 
-
+//Main screen of tours Bus fragment(our general bus ex.40 seater)
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

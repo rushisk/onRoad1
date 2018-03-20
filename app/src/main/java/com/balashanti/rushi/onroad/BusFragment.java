@@ -18,7 +18,9 @@ import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+/*
+* This is the main fragment of bus booking screen
+* from here bus booking process starts*/
 public class BusFragment extends Fragment {
 
     public BusFragment() {
@@ -88,11 +90,13 @@ public class BusFragment extends Fragment {
 
         return view;
     }
-//date fragment intent method
+//date fragment intent method which goes to date picker
     public void date_Frag() {
         Intent i = new Intent(this.getActivity(), DatePick.class);
         startActivityForResult(i,11111);
     }
+
+//    it gets the date selected by user in DatePick activity
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 11111 && resultCode == Activity.RESULT_OK) {
@@ -105,7 +109,7 @@ public class BusFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("Bus");
     }
-
+//This is the intent for List of BusListActivity which shows list of available buses
     public void updateDetail() {
         Intent intent = new Intent(getActivity(), BusListActivity.class);
         startActivity(intent);

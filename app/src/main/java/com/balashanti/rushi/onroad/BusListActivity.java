@@ -8,7 +8,8 @@ import android.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//code of RecyclerView goes here
+//list of all available buses and its price
 public class BusListActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.Adapter adapter;

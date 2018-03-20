@@ -1,6 +1,6 @@
 package com.balashanti.rushi.onroad;
 
-
+//Dedicated section for user login
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;

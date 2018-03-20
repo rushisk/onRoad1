@@ -2,6 +2,7 @@ package com.balashanti.rushi.onroad;
 
 /**
  * Created by Rushikesh Kotule on 01-Mar-18.
+ * this adapter is used for showing question and answer in FAQ section
  */
 import java.util.HashMap;
 import java.util.List;

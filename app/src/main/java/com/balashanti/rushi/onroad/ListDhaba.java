@@ -2,6 +2,7 @@ package com.balashanti.rushi.onroad;
 
 /**
  * Created by Rushikesh Kotule on 11-Feb-18.
+ * Recyclerview of dhaba
  */
 
 public class ListDhaba  {

@@ -16,6 +16,7 @@ import java.util.List;
   * Date 10-Feb-18.
  * Description ----------
  * Version 1.0
+ * this adapter is being used for showing the list of current available buses
 */
 
 

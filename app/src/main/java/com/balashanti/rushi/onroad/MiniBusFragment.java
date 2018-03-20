@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
+ * It belongs to Mini bus in Tours section
  */
 public class MiniBusFragment extends Fragment {
 

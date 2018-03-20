@@ -8,7 +8,7 @@ import android.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//List of dabas with its corresponding cities
 public class City_List extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.Adapter adapter;

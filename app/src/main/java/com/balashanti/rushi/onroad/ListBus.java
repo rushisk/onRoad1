@@ -2,6 +2,7 @@ package com.balashanti.rushi.onroad;
 
 /**
  * Created by Rushikesh Kotule on 10-Feb-18.
+ * RecyclerView of bus list
  */
 
 public class ListBus {

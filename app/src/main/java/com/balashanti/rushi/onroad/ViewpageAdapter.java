@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 /**
  * Created by Rushikesh Kotule on 19-Feb-18.
+ * ViewPage Adapter is for showing current ticket offers images on BusFragment
  */
 
 public class ViewpageAdapter extends PagerAdapter {
