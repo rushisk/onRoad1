@@ -3,16 +3,132 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.balashanti.rushi.MiniBusFragment">
+    tools:context="com.balashanti.rushi.onroad.MiniBusFragment">
 
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="147dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
 
-    <TextView
+    <RadioButton
+        android:id="@+id/outdoorId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fromText"
+        android:layout_alignStart="@+id/fromText"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="43dp"
+        android:text="Local Trip"
+        android:textSize="30px" />
 
-        android:layout_centerHorizontal="true"
-        android:text="Fragment 1"
-        android:textSize="30sp"/>
+    <RadioButton
+        android:id="@+id/indoorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/outdoorId"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_toEndOf="@+id/outdoorId"
+        android:layout_toRightOf="@+id/outdoorId"
+        android:text="Outstation Trip" />
+
+    <TextView
+        android:id="@+id/fromText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/outdoorId"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="21dp"
+        android:text="From :"
+        android:textSize="30px"
+        android:textColor="@color/colorAccent"/>
+
+    <Spinner
+        android:id="@+id/sourceCitySpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignTop="@+id/fromText"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        />
+
+    <TextView
+        android:id="@+id/towardsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fromText"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:text="To :"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Spinner
+        android:id="@+id/destinationCitySpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/towardsText"
+        android:layout_alignLeft="@+id/sourceCitySpinner"
+        android:layout_alignStart="@+id/sourceCitySpinner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/towardsText"
+        android:layout_alignStart="@+id/towardsText"
+        android:layout_below="@+id/towardsText"
+        android:layout_marginTop="30dp"
+        android:text="From Date :"
+        android:textSize="30px"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/destinationCitySpinner"
+        android:layout_alignStart="@+id/destinationCitySpinner"
+        android:layout_alignTop="@+id/textView"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="27dp"
+        android:textSize="30px"
+        android:textColor="@color/colorAccent"
+        android:text="To Date :" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:ems="10"
+        android:inputType="date" />
+
 
 </RelativeLayout>
